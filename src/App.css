@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-image: url("/public/360_F_416070034_iLbiSoeZ1fhI9DC06cqCpovoufe7Xj85.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 98.5vh;
+  border: 5px solid rgb(138, 132, 132);
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width:600px){
+  .App{
+    width: 100%;
+    height: auto;
+  }
+}
